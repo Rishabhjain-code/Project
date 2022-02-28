@@ -1,0 +1,17 @@
+.searchbar-box {
+  background-color: white;
+  width: 40%;
+  margin: 0 2% 0 15%;
+}
+.searchbar-profile-view {
+  top: 15% !important;
+}
+
+@media screen and (max-width: 450px) {
+  .searchbar-box {
+    background-color: white;
+    width: 70%;
+    margin: 0 2% 0 15%;
+    font-size: 90%;
+  }
+}

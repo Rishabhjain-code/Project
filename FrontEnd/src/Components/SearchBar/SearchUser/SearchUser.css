@@ -1,0 +1,47 @@
+.search-user {
+  border: 1px solid black;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1% 2% 1% 2%;
+  border-radius: 10px;
+  margin-bottom: 1%;
+}
+.search-user input {
+  padding: 5px;
+}
+.user-image-name-handle {
+  width: 70%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.search-user-image {
+  width: 15%;
+  height: 55px;
+  display: flex;
+  align-items: center;
+}
+.search-user-image img {
+  width: 100%;
+  border-radius: 50%;
+  height: 100%;
+}
+.name-handle {
+  margin-left: 5%;
+}
+.search-user-name {
+}
+.search-user-handle {
+}
+
+@media screen and (max-width: 450px) {
+  .search-user input {
+    font-size: 70%;
+  }
+  .search-user-image {
+    height: 40px;
+    width: 25%;
+  }
+}

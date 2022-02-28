@@ -1,0 +1,251 @@
+.post {
+  border: 1px solid lightgray;
+  background-color: white;
+  margin-top: 25px;
+  border-radius: 5%;
+}
+
+.post-username {
+  display: flex;
+  align-items: center;
+  border-bottom: 2px solid rgb(229, 234, 238);
+}
+.post-userimage {
+  height: 60px;
+  width: 15%;
+}
+.post-userimage img {
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+}
+.username {
+  font-size: 100%;
+}
+.delete-post {
+}
+.delete-post-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.follow-post-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.post-image {
+  border-bottom: 2px solid rgb(229, 234, 238);
+  position: relative;
+  z-index: 0;
+  left: 10%;
+}
+.post-image img {
+  object-fit: contain;
+}
+.post-actions-and-like {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.like-icon {
+}
+.comment-icon {
+}
+.post-likes-count {
+}
+.user-post {
+}
+.user-post-name {
+}
+.user-post-button button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.post-add-comment {
+  display: flex;
+  border-top: 2px solid rgb(229, 234, 238);
+  align-items: center;
+}
+.post-add-comment button {
+  width: 20%;
+}
+.comment-input {
+  outline: none;
+  border: none;
+  overflow: hidden;
+}
+
+.post-comments-section {
+  height: 6rem;
+  overflow: auto;
+}
+.comment {
+}
+.user-who {
+}
+.user-commented {
+}
+.button-options {
+  width: 20%;
+}
+.delete-post,
+.follow-post {
+  width: 100%;
+}
+.delete-post-button,
+.follow-post-button {
+  width: 100%;
+  font-size: 100%;
+  padding: 0;
+}
+
+@media screen and (min-width: 451px) {
+  .post {
+    width: 80%;
+  }
+
+  .post-username {
+    height: 10%;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .username {
+    width: 50%;
+  }
+  .delete-post-button {
+    height: 30px;
+  }
+
+  .post-image {
+    width: 80%;
+  }
+
+  .post-image img {
+    width: 100%;
+  }
+  .post-actions-and-like {
+    font-size: 80%;
+    width: 15%;
+  }
+  .like-icon {
+  }
+  .comment-icon {
+  }
+  .post-likes-count {
+  }
+  .user-post {
+    padding-left: 1%;
+  }
+  .user-post-button button {
+    height: 30px;
+  }
+  .post-comments-section {
+    padding-left: 1%;
+  }
+  .post-add-comment {
+    height: 5rem;
+  }
+  .comment-input {
+    width: 75%;
+    padding: 3% 0 3% 3%;
+    border-radius: 0 0 0 25px;
+  }
+  .post-add-comment button {
+    padding: 2px;
+    font-size: 70%;
+  }
+
+  .comment {
+  }
+  .user-who {
+    margin-right: 4px;
+  }
+  .user-commented {
+    height: 20px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .post {
+    width: 80%;
+  }
+
+  .post-username {
+    height: 10%;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .post-userimage{
+    height: 40px;
+  }
+
+  .username {
+    width: 50%;
+  }
+  .follow-post-button,
+  .delete-post-button {
+    font-size: 100%;
+    padding: 0;
+  }
+  .button-options,
+  .comment-button {
+    font-size: 50% !important;
+  }
+  .delete-post {
+  }
+  .delete-post-button {
+  }
+  .follow-post-button {
+  }
+
+  .post-image {
+    width: 80%;
+  }
+
+  .post-image img {
+    width: 100%;
+  }
+  .post-actions-and-like {
+    width: 15%;
+    font-size: 70%;
+  }
+  .like-icon {
+  }
+  .comment-icon {
+  }
+  .post-likes-count {
+  }
+  .user-post {
+    padding-left: 1%;
+  }
+  .user-post-button button {
+    height: 30px;
+  }
+  .post-comments-section {
+    padding-left: 1%;
+  }
+  .post-add-comment {
+    height: 5rem;
+  }
+  .post-add-comment button {
+    padding: 0;
+  }
+  .comment-input {
+    width: 75%;
+    padding: 10px;
+    border-radius: 0 0 0 25px;
+  }
+
+  .comment {
+  }
+  .user-who {
+    margin-right: 4px;
+  }
+  .user-commented {
+    height: 20px;
+  }
+}

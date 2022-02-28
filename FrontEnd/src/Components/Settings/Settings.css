@@ -1,0 +1,234 @@
+.settings-input select {
+  width: 100%;
+  padding: 4%;
+  border-radius: 10px;
+}
+.settings-input input {
+  width: 70%;
+  padding: 2%;
+  border-radius: 10px;
+}
+.settings-input option{
+  border-radius: 1%;
+}
+
+@media screen and (min-width: 451px) {
+  .settings {
+    margin-top: 5%;
+  }
+  .file-input {
+    display: inline !important;
+  }
+  .left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .profile-file-input {
+    width: 100%;
+  }
+
+  .settings-options {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  .settings-messages {
+  }
+  .settings-message {
+    padding: 1%;
+    border: 1px solid;
+    background-color: red;
+  }
+  .settings-input label {
+    width: 25%;
+  }
+  .options {
+    width: 70%;
+  }
+  .settings-input select {
+    width: 100%;
+  }
+  .settings-input input {
+    width: 70%;
+  }
+  .settings-input {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+  }
+  .left {
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 6px;
+    width: 30%;
+    height: 70vh;
+  }
+  .change-image-button {
+    height: 40px;
+    width: 200px;
+  }
+  .right {
+    background-color: white;
+    border: 2px solid black;
+    width: 30%;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+  }
+  .right-details {
+    height: 80%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .name {
+  }
+  .handle {
+  }
+  .email {
+  }
+  .password {
+  }
+  .bio {
+  }
+  .file-input {
+    margin-left: 25%;
+  }
+  .is-public {
+  }
+  .profile-image {
+    height: 80%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .profile-image img {
+    width: 80%;
+    height: 90%;
+    border-radius: 50%;
+  }
+  .actions {
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 10%;
+    display: flex;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .settings {
+    margin-top: 5%;
+  }
+  .file-input {
+    display: inline !important;
+  }
+  .left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .profile-file-input {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    margin-left: 10%;
+  }
+  .settings-options {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .settings-messages {
+  }
+  .settings-message {
+    padding: 1%;
+    border: 1px solid;
+    background-color: red;
+  }
+  .settings-input {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+  }
+  .settings-input label {
+    width: 25%;
+  }
+  .options {
+    width: 70%;
+  }
+  .settings-input select {
+    width: 100%;
+  }
+  .settings-input input {
+    width: 70%;
+  }
+  .left {
+    background-color: white;
+    border: 2px dashed black;
+    border-radius: 6px;
+    width: 70%;
+    height: 20rem;
+  }
+  .right {
+    background-color: white;
+    border: 2px dashed black;
+    width: 70%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+    margin: 10% 0;
+  }
+  .right-details {
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .name {
+  }
+  .handle {
+  }
+  .email {
+  }
+  .password {
+  }
+  .bio {
+  }
+  .file-input {
+  }
+  .is-public {
+  }
+  .profile-image {
+    height: 80%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .profile-image img {
+    width: 80%;
+    height: 90%;
+    border-radius: 50%;
+  }
+  .actions {
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 10%;
+    display: flex;
+  }
+}

@@ -1,0 +1,225 @@
+.signup-page {
+  position: absolute;
+  margin-top: 4vh;
+  display: flex;
+  border-radius: 1%;
+}
+
+.signup-left {
+  display: flex;
+  align-items: center;
+}
+.signup-right {
+  display: flex;
+  border: 1px solid black;
+  border-radius: 10%;
+  padding: 5%;
+  background-color: #49b489;
+}
+
+.signup-logo {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.signup-logo img {
+  border-radius: 10%;
+  height: 100%;
+}
+
+.signup-credentials {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin-bottom: 20px;
+  height: 80%;
+}
+
+.signup-access {
+  padding: 1%;
+  margin-top: 1%;
+  padding-left: 0;
+}
+
+#access {
+  border: 2px solid;
+  padding: 5px;
+  border-radius: 10px;
+  width: 60%;
+  font-family: cursive;
+}
+#access > option {
+  font-family: cursive;
+  background: lightgray;
+}
+.signup-credentials input {
+  padding: 1.5%;
+  border-radius: 10px;
+  margin: 1%;
+  font-family: cursive;
+}
+
+.signup-credentials > div {
+  display: flex;
+  align-items: center;
+}
+.signup-email {
+}
+.signup-email-handle {
+}
+.signup-email-input {
+}
+.signup-password {
+}
+.signup-password-handle {
+}
+.signup-password-input {
+}
+.oauth-signup {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.signup-button {
+}
+.signup-button button {
+}
+
+@media only screen and (min-width: 850px) {
+  .signup-page {
+    height: 74vh;
+    left: 15%;
+    justify-content: space-evenly;
+    width: 70%;
+  }
+
+  .signup-left {
+    width: 50%;
+  }
+
+  .signup-right {
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+  }
+
+  .signup-logo {
+  }
+
+  .signup-logo img {
+    width: 80%;
+  }
+
+  .signup-credentials {
+  }
+
+  .signup-access {
+  }
+
+  #access {
+  }
+
+  #access > option {
+  }
+
+  .signup-credentials input {
+    width: 60%;
+  }
+
+  .signup-credentials > div {
+    justify-content: space-between;
+  }
+
+  .signup-email {
+  }
+  .signup-email-handle {
+  }
+  .signup-email-input {
+  }
+  .signup-password {
+  }
+  .signup-password-handle {
+  }
+  .signup-password-input {
+  }
+  .oauth-signup {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .signup-button {
+  }
+  .signup-button button {
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  .signup-page {
+    flex-direction: column;
+    left: 10%;
+    justify-content: space-evenly;
+    width: 80%;
+    align-items: center;
+  }
+
+  .signup-left {
+    width: 100%;
+    margin-bottom: 5%;
+  }
+
+  .signup-right {
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .signup-logo {
+  }
+
+  .signup-logo img {
+    width: 100%;
+  }
+
+  .signup-credentials {
+  }
+
+  .signup-access {
+  }
+
+  #access {
+    width: 60%;
+  }
+
+  #access > option {
+  }
+
+  .signup-credentials input {
+    width: 60%;
+  }
+
+  .signup-credentials > div {
+    justify-content: space-between;
+  }
+
+  .signup-email {
+  }
+  .signup-email-handle {
+  }
+  .signup-email-input {
+  }
+  .signup-password {
+  }
+  .signup-password-handle {
+  }
+  .signup-password-input {
+  }
+  .oauth-signup {
+  }
+  .signup-button {
+  }
+  .signup-button button {
+  }
+}

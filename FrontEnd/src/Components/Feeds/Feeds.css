@@ -1,0 +1,55 @@
+input[type="file"] {
+  display: none;
+}
+.custom-file-upload {
+  border: 1px solid #ccc;
+  padding: 1% 2%;
+  cursor: pointer;
+  width: 17%;
+  height: 10%;
+}
+
+.feeds {
+}
+
+@media screen and (min-width: 451px) {
+  .feeds {
+    width: 45%;
+    position: relative;
+    right: 20%;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .feeds {
+    width: 100%;
+  }
+}
+
+.feeds-upload-post {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+.feeds-all-posts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.feeds-post-button {
+}
+label {
+  margin: 0;
+}
+.feeds-caption-input {
+  padding: 1%;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: brown;
+  border: none;
+  border-radius: 10px;
+  width: 40%;
+}
+.feeds-file-input {
+}

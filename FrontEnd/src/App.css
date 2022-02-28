@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  /* background-color: rgb(241, 239, 239);*/
+  /* background-color: #fafafa; */
+  background-color: #faf8f8;
+}
+
+.home-view {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 20px;
+}
+
+@media screen and (max-width:449px) {
+  .home-view{
+    flex-direction: column;
+    align-items: center;
+  } 
+}

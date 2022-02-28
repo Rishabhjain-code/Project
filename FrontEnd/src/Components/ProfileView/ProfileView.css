@@ -1,0 +1,104 @@
+.profile-view {
+  background-color: white;
+  width: 25%;
+  border: 1px solid lightgray;
+  height: 80vh;
+}
+
+.profile-view-div {
+  height: 100%;
+  padding: 3%;
+  width: 100%;
+}
+.profile-view-user-details {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  padding-bottom: 3%;
+  border-bottom: 2px solid lightgrey;
+}
+.profile-view-user-image {
+  width: 20%;
+  height: 65px;
+}
+.profile-view-user-image img {
+  width: 100%;
+  height: 100%;
+  border: 1px solid black;
+  border-radius: 50%;
+  display: flex;
+  justify-content: space-around;
+  object-fit: cover;
+}
+.profile-view-user-names {
+  background: aliceblue;
+  padding: 2%;
+  height: auto;
+  width: 70%;
+}
+.profile-view-heading {
+  display: flex;
+  justify-content: center;
+}
+.profile-view-username {
+  width: 170px;
+  font-weight: bold;
+}
+.profile-view-fullname {
+  width: 170px;
+}
+.profile-view-all-suggestions {
+  padding-top: 2%;
+}
+.profile-view-suggestion-user {
+  display: flex;
+  margin-bottom: 2%;
+  width: 100%;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 10px;
+  justify-content: space-around;
+}
+.suggestion-user-image {
+  width: 20%;
+  height: 65px;
+}
+.suggestion-user-image img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+.suggestion-user-name {
+  width: 45%;
+  font-size: 90%;
+}
+.suggestion-username {
+  font-weight: bold;
+}
+.suggestion-fullname {
+}
+.suggestion-follow-button {
+  width: 20%;
+}
+.suggestion-follow-button > button {
+  font-size: 70%;
+}
+
+/* at exact 450 both satisfies and see carefully else random results */
+@media screen and (min-width: 451px) {
+  .profile-view {
+    position: fixed;
+    right: 10%;
+    top: 14%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .profile-view {
+    width: 90%;
+    margin: 10% 0;
+  }
+
+  .profile-view-suggestion-user > .profile-view-user-image {
+    width: 90%;
+  }
+}
